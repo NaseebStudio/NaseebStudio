@@ -68,9 +68,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.href = `naseeb.studi@gmail.com.studio?subject=${subject}&body=${body}`;
   });
 
-  waDirect.addEventListener('click', (e) => {
-    const data = Object.fromEntries(new FormData(form));
-    const msg = `Hi Aabid! I have a ${data.service} project. My name is ${data.name}. ${data.message || ''}`;
-    waDirect.href = `https://wa.me/917517503427?text=${encodeURIComponent(msg)}`;
-  });
+  // waDirect.addEventListener('click', (e) => {
+  //   const data = Object.fromEntries(new FormData(form));
+  //   const msg = `Hi Aabid! I have a ${data.service} project. My name is ${data.name}. ${data.message || ''}`;
+  //   waDirect.href = `https://wa.me/917517503427?text=${encodeURIComponent(msg)}`;
+  // });
+
 });
